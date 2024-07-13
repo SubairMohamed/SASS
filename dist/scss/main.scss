@@ -1,10 +1,16 @@
 $myWidth: 750px;
 $myColor: white;
 $bg-color: brown;
-$myFontsize: 2.3rem;
+$myFontsize: 2rem;
 $myFontfamily: helvetica, sans-serif;
 
 .container {
   width: $myWidth;
   background-color: $bg-color;
+  color: $myColor;
+}
+
+h1 {
+  font-size: $myFontsize;
+  font-family: $myFontfamily;
 }

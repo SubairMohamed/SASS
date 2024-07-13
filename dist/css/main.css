@@ -1,4 +1,10 @@
 .container {
   width: 750px;
   background-color: brown;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: helvetica, sans-serif;
 }/*# sourceMappingURL=main.css.map */
