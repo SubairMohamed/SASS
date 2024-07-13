@@ -2,9 +2,11 @@
   width: 750px;
   background-color: brown;
   color: white;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 2rem;
   font-family: helvetica, sans-serif;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
