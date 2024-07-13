@@ -3,3 +3,8 @@ $myColor: white;
 $bg-color: brown;
 $myFontsize: 2.3rem;
 $myFontfamily: helvetica, sans-serif;
+
+.container {
+  width: $myWidth;
+  background-color: $bg-color;
+}
