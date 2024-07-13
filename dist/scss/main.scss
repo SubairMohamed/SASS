@@ -25,9 +25,10 @@ h1 {
 // ==============
 
 $mySecondColor: blue;
+// !global, hdd rabto inn variable kaaga ka dhigto global isticlaam
 
 h3 {
-  $mySecondColor: green;
+  $mySecondColor: green !global;
   color: $mySecondColor;
   font-size: 1.5rem;
 }
