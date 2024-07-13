@@ -20,3 +20,18 @@ h1 {
   font-family: $myFontfamily;
   text-align: center;
 }
+
+// Variable Scope
+// ==============
+
+$mySecondColor: blue;
+
+h3 {
+  $mySecondColor: green;
+  color: $mySecondColor;
+  font-size: 1.5rem;
+}
+
+p {
+  color: $mySecondColor;
+}
