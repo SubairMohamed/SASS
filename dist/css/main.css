@@ -24,4 +24,11 @@ p {
 
 .navbar ul {
   font-size: 1.5rem;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
