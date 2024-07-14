@@ -24,6 +24,10 @@ p {
 
 .navbar ul {
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
 .navbar li {
   list-style: none;
