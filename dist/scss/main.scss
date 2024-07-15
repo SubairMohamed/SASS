@@ -41,15 +41,15 @@ p {
 // ===========
 
 @mixin second-text {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: white;
   text-align: center;
   border: 1px solid gray;
   border-radius: 10px;
+  display: block;
 }
 
 .second-header {
   @include second-text;
-  background-color: black;
 }

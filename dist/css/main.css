@@ -40,11 +40,11 @@ p {
 }
 
 .second-header {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: white;
   text-align: center;
   border: 1px solid gray;
   border-radius: 10px;
-  background-color: black;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
