@@ -36,3 +36,14 @@ p {
 // Sass Nesting
 // ============
 @import "Nesting";
+
+// Sass @Mixin
+// ===========
+
+@mixin second-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
