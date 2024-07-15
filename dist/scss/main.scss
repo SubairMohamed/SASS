@@ -1,6 +1,6 @@
 // Variables
 // =========
-@import "_variables.scss";
+@import "variables";
 
 .container {
   width: $myWidth;
@@ -44,6 +44,12 @@ p {
   font-size: 2rem;
   font-weight: bold;
   color: white;
+  text-align: center;
   border: 1px solid gray;
   border-radius: 10px;
+}
+
+.second-header {
+  @include second-text;
+  background-color: black;
 }
