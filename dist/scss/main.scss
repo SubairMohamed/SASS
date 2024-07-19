@@ -57,7 +57,7 @@ p {
 // Sass @extend
 // =============
 
-input[type="submit"] {
+.save {
   font-size: 1rem;
   font-weight: bold;
   color: green;
@@ -69,5 +69,5 @@ input[type="submit"] {
 }
 
 .cancel {
-  @extend input;
+  @extend .save;
 }
