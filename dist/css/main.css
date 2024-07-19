@@ -50,7 +50,7 @@ p {
 }
 
 .save, .cancel {
-  font-size: 1rem;
+  font: 1rem;
   font-weight: bold;
   color: green;
   background-color: white;
