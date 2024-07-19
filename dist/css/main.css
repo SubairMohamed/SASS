@@ -49,7 +49,7 @@ p {
   display: block;
 }
 
-input[type=submit] {
+input[type=submit], [type=submit].cancel {
   font-size: 1rem;
   font-weight: bold;
   color: green;

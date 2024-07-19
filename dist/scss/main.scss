@@ -67,3 +67,7 @@ input[type="submit"] {
   padding: 0.4rem 0.5rem;
   border-radius: 10px;
 }
+
+.cancel {
+  @extend input;
+}
