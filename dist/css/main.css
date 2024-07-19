@@ -47,4 +47,11 @@ p {
   border: 1px solid gray;
   border-radius: 10px;
   display: block;
+}
+
+input[type=submit] {
+  font-size: 1rem;
+  font-weight: bold;
+  color: green;
+  border: none;
 }/*# sourceMappingURL=main.css.map */

@@ -53,3 +53,13 @@ p {
 .second-header {
   @include second-text;
 }
+
+// Sass @extend
+// =============
+
+input[type="submit"] {
+  font-size: 1rem;
+  font-weight: bold;
+  color: green;
+  border: none;
+}
